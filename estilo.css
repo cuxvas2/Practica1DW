@@ -1,0 +1,103 @@
+@media only screen and (max-width: 600px){
+
+}
+
+@media only screen and (min-width: 600px){
+    
+}
+
+@media only screen and (min-width: 768px){
+    
+}
+
+@media only screen and (min-width: 992px){
+    
+}
+
+@media only screen and (min-width: 1200px){
+    
+}
+
+BODY {
+    color:white;
+}
+
+#container{
+    border: 2px solid black;
+    width: 80%;
+    position: absolute;
+    left: 10%;
+}
+
+.content{
+    float: left;
+    background-color: green;
+    width: 70%;
+    min-height: 500px;
+    
+}
+
+.nav{
+    background-color: aquamarine;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    float: left;
+    margin-right: 10px;
+    display: block;
+}
+
+.aside{
+    float: left;
+    width: 30%;
+    background-color: orange;
+    min-height: 500px;
+}
+
+.header{
+    text-align: center;
+    background-color: red;
+    height: 80px;
+    border-bottom: 3px dashed black;
+}
+
+.footer{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+a:hover{
+    color: red;
+}
+
+.aside h2{
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+    
+}
+
+.aside form{
+    padding-left: 10px;
+    
+}
+
+.article{
+    padding-left: 20px;
+    border-top: 3px white;
+}
+
+input{
+    display: block;
+    margin-bottom: 1px;
+}
+
+.clearfix{
+    clear: both;
+}
