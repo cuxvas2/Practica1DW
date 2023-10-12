@@ -1,21 +1,63 @@
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 576px){
+    #container{
+        width: 80%;
+        left: 4%;
+    }
 
+    .aside{
+        min-height: 400px;
+    }
+
+    .content{
+        min-height: 400px;
+    }
+
+    .aside input{
+        width: 30px;
+    }
 }
 
-@media only screen and (min-width: 600px){
-    
+@media only screen and (min-width: 576px){
+    #container{
+        width: 80%;
+        left: 5%;
+    }
 }
 
 @media only screen and (min-width: 768px){
-    
+    #container{
+        width: 80%;
+        left: 6%;
+    }
 }
 
 @media only screen and (min-width: 992px){
-    
+    #container{
+        width: 80%;
+        left: 7%;
+    }
 }
 
 @media only screen and (min-width: 1200px){
-    
+    #container{
+        width: 80%;
+        left: 8%;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    #container{
+        width: 80%;
+        left: 9%;
+    }
+
+    .aside{
+        min-height: 500px;
+    }
+
+    .content{
+        min-height: 500px;
+    }
 }
 
 BODY {
@@ -34,14 +76,12 @@ BODY {
     background-color: green;
     width: 70%;
     min-height: 500px;
-    
 }
 
 .nav{
     background-color: aquamarine;
     border-bottom: 1px solid black;
     display: flex;
-    align-items: center;
 }
 
 li {
@@ -62,6 +102,10 @@ li {
     background-color: red;
     height: 80px;
     border-bottom: 3px dashed black;
+}
+
+#busqueda{
+    width: 90%;
 }
 
 .footer{
