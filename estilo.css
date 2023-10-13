@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 @media only screen and (max-width: 576px){
     .header{
         font-size: 70%;
@@ -49,10 +54,13 @@
 
     .aside{
         font-size: 70%;
+        width: calc(30% - 20px);
+    }
+
+    .content {
+        width: calc(70% - 40px);
     }
 }
-
-
 
 @media only screen and (max-width: 360px){
     .footer{
@@ -66,7 +74,7 @@ BODY {
 }
 
 #container{
-    border: 2px solid black;
+    border: 1px solid black;
     width: 80%;
     margin: 0 auto;
 }
@@ -82,7 +90,6 @@ BODY {
 .nav{
     background-color: aquamarine;
     border-bottom: 1px solid black;
-    display: flex;
     overflow: hidden;
 }
 
@@ -90,7 +97,7 @@ BODY {
     float: left;
     list-style: none;
     margin: 10px;
-    line-height: 10px;
+    line-height: 30px;
 }
 
 li {
@@ -117,32 +124,16 @@ li {
     padding: 0 10px;
 }
 
-#busqueda{
-    width: 90%;
-}
 
 .footer{
     text-align: center;
-    width: 100%;
     height: 50px;
     line-height: 50px;
     background-color: black;
 }
 
-a:hover{
-    color: red;
-}
-
-.aside h2{
-    color: black;
-    font-weight: bold;
-    padding-left: 10px;
-    
-}
-
-.aside form{
-    padding-left: 10px;
-    
+.aside input[type=text]{
+    width: 100%;
 }
 
 .article{
