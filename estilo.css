@@ -3,71 +3,7 @@
     padding: 0;
 }
 
-@media only screen and (max-width: 576px){
-    .header{
-        font-size: 70%;
-    }
 
-    .header h1 {
-        max-width: 500px;
-        margin: auto;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    .nav{
-        font-size: 90%;
-    }
-
-    .nav ul li{
-        line-height: normal;
-    }
-
-    .content{
-        width: calc(60% - 40px);
-        font-size: 70%;
-    }
-
-    .aside{
-        width: calc(40% - 20px);
-    }
-
-    .aside h2{
-        max-width: 100px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-}
-
-@media only screen and (max-width: 768px){
-    #container{
-        width: calc(100% - 2px);
-    }
-}
-
-@media only screen and (max-width: 992px){
-    .header{
-        font-size: 70%;
-        white-space: nowrap;
-    }
-
-    .aside{
-        font-size: 70%;
-        width: calc(30% - 20px);
-    }
-
-    .content {
-        width: calc(70% - 40px);
-    }
-}
-
-@media only screen and (max-width: 360px){
-    .footer{
-        font-size:  70%;
-    }
-}
 
 BODY {
     color:whitesmoke;
@@ -99,12 +35,6 @@ BODY {
     list-style: none;
     margin: 10px;
     line-height: 30px;
-}
-
-li {
-    float: left;
-    margin-right: 10px;
-    display: block;
 }
 
 .aside{
@@ -150,11 +80,80 @@ li {
     padding-top: 10px;
 }
 
-input{
-    display: block;
-    margin-bottom: 1px;
-}
-
 .clearfix{
     clear: both;
+}
+
+@media only screen and (max-width: 576px){
+    .header{
+        font-size: 70%;
+    }
+
+    .header h1 {
+        max-width: 500px;
+        margin: auto;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .nav{
+        font-size: 90%;
+    }
+
+    .nav ul li{
+        line-height: normal;
+    }
+
+    .content{
+        width: calc(60% - 40px);
+        font-size: 70%;
+    }
+
+    .aside{
+        width: calc(40% - 20px);
+    }
+
+    .aside h2{
+        max-width: 100px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    #container{
+        width: calc(100% - 2px);
+    }
+}
+
+@media (max-width: 768px){
+    #container{
+        width: calc(100% - 2px);
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .header{
+        font-size: 70%;
+        white-space: nowrap;
+    }
+
+    .aside{
+        font-size: 70%;
+        width: calc(30% - 20px);
+    }
+
+    .content {
+        width: calc(70% - 40px);
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .footer{
+        font-size:  70%;
+    }
+    
+    #container{
+        width: calc(100% - 2px);
+    }
 }
